@@ -21,7 +21,7 @@ body {
     padding: 5px;
 }
 
-.fa-arrows-up-down-left-right {
+.fa-arrows-alt {
     rotate: 45deg;
 }
 
@@ -78,32 +78,8 @@ body {
     padding: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* fine call */
+/* fine main */
 
 /* inizio nav */
 
@@ -118,8 +94,20 @@ nav {
     left: 0px;
 }
 
-.nav-container {
+#nav-container {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
+}
+
+#vid-aud {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 80px;
+}
+
+.icons {
+    color: white;
 }
