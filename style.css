@@ -56,8 +56,17 @@ body {
 .single {
     position: relative;
 
-    width: 250px;
-    height: 150px;
+/* Opzione per un a capo (dimensioni immagine fisse) */
+
+    max-width: 250px;
+    max-height: 150px;
+
+/* Opzione per un numero fisso di colonne massime e rimpicciolimento dinamico*/
+
+    width: 12.5vw;
+    min-width: 200px;
+    height: calc(60% * 12.5vw);
+    min-height: 120px;
 }
 
 .single img {
